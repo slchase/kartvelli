@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Aller;
+    src: url('fonts/Aller_Rg.ttf');
+}
+
+h1, h2, h3, h4{
+  font-family: Aller;
+  color:#E69138;
+}
+h5, p{
+  color:black;
+  font-family: Aller;
+}
+
+h1{
+  font-size: 5em;
+  text-shadow: 2px 2px #000;
+}
+h3{
+  font-size: 2em;
+  text-shadow: 2px 2px #000;
+}
+h5{
+  font-size: 1.2em;
+}
+p{
+  font-size: .8em;
+}
+.home-container{
+  background: url('../img/home-cover.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top:0;
+  left:0;
+  text-align: center;
+}
+
+button{
+  width:25%;
+  margin:30px;
+  background-color:#E69138;
+  border-radius: 15px;
+  border: 1px solid black;
+  height: 25%;
+  padding: 0;
+  position: relative;
+  top:50px;
+}
+
+.links{
+  width: 100%;
+  margin-top:15%;
+}
