@@ -15,16 +15,18 @@ h5, p{
 h1{
   font-size: 5em;
   text-shadow: 2px 2px #000;
+  letter-spacing: 10px;
 }
 h3{
   font-size: 2em;
   text-shadow: 2px 2px #000;
+  letter-spacing: 6px;
 }
 h5{
-  font-size: 1.2em;
+  font-size: 2.2em;
 }
 p{
-  font-size: .8em;
+  font-size: 1.3em;
 }
 .home-container{
   background: url('../img/home-cover.jpg') no-repeat center center fixed;
